@@ -1,6 +1,6 @@
 ---
 output: html_document
-title: "Do two Salmon runs in a row give the same TPM?"
+title: "Do two Salmon (ver. 1.4.0) runs in a row give the same TPM?"
 author: "Mira Sohn"
 date: "2020/11/28"
 ---
@@ -295,7 +295,6 @@ grid.arrange(runPlot.fn(tpmList, 'gc-seq'),
              runPlot.fn(tpmList, 'seq'),
              runPlot.fn(tpmList, 'default'), 
              nrow=2)
-
 ```
 
 
